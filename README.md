@@ -1,24 +1,24 @@
 # Research Assistant
 
-이 프로젝트는 사용자 입력에 따라 웹에서 정보를 검색하고, 관련 문서를 요약하여 결과를 반환하는 커스텀 에이전트를 구현합니다.
+This project implements a custom agent that searches the web for information based on user input, summarizes relevant documents, and returns the results.
 
-## 기능
+## Features
 
-- Google 검색을 통해 관련 문서 링크를 수집합니다.
-- 수집된 문서의 내용을 가져옵니다.
-- 문서 내용을 요약하여 사용자에게 반환합니다.
-- 요약된 결과를 파일로 저장합니다.
+- Collects links to relevant documents through Google search.
+- Retrieves the content of the collected documents.
+- Summarizes the content of the documents and returns it to the user.
+- Saves the summarized results to a file.
 
-## 설치
+## Installation
 
-### 필수 조건
+### Prerequisites
 
-- Python 3.7 이상
-- `pip` 패키지 관리자
+- Python 3.7 or higher
+- `pip` package manager
 
-### 종속성 설치
+### Installing Dependencies
 
-다음 명령어를 사용하여 필요한 패키지를 설치합니다:
+Use the following command to install the required packages:
 
 ```bash
 pip install -r requirements.txt
@@ -32,3 +32,4 @@ pip install -r requirements.txt
 #### 요약에 사용된 모델
 
 1. Llama 3.1
+2. GPT-4o-mini
