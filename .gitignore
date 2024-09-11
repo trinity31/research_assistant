@@ -1,0 +1,7 @@
+*.json
+*.jsonl
+.env
+research_result.txt
+env/
+fine_tuning.py
+results/
