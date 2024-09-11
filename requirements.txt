@@ -17,3 +17,4 @@ langchain_openai
 gradio_tools
 requests
 beautifulsoup4
+langchain-openai
